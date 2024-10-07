@@ -41,14 +41,30 @@
             <button id="history-tab" class=" btn text-sm lg:text-lg font-bold ml-2">History</button>
          </div>
         <!-- Button Section End -->
-         
+
     </header>
     <!-- Head Section End -->
 
 
     <!-- Main Section Start -->
     <main>
-
+        <!-- Card Start For Noakhali -->
+         <div id="noakhali-donate-card" class="hero border-2 rounded-lg w-10/12 mx-auto mt-10 flex flex-col lg:flex-row justify-between">
+            <div class="w-full lg:w-1/2 p-2 lg:p-6 mx-auto">
+                <img src="./assets/noakhali.png" alt="">
+            </div>
+            <div class="w-full lg:w-1/2 p-2 lg:p-6 mx-auto">
+                <div class=" item-center p-3 rounded-lg mt-2 mb-2  bg-[#1111110D] inline-flex gap-1 font-semibold justify-center">
+                    <div><img class="w-3/11" src="./assets/coin.png" src="./assets/coin.png" alt=""></div>
+                    <div><span id="noakhali-donate-amount">0</span>BDT</div>
+                </div>
+                <h3 class="text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
+                <p class="py-6">The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                <input id="nouakhali-input-value" class="w-full border-2 rounded-lg px-6 py-2" type="text" placeholder="Write Donation Amount?">
+                <button onclick="historyDonation('nouakhali-input-value', 'flood','Famine-2024 Noakhali')" id="noakhali-donate-button" class= "btn bg-[#cbff86] w-full font-bold mt-3">Donate Now</button>
+            </div>
+         </div>
+        <!-- Card End For Noakhali -->
     </main>
     <!-- Main Section End -->
 
